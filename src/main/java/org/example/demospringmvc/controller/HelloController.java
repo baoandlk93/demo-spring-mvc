@@ -10,6 +10,6 @@ public class HelloController {
     @GetMapping()
     public String index() {
         System.out.println("Hello controller");
-        return "/Home";
+        return "Home";
     }
 }
